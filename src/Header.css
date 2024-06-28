@@ -1,42 +1,43 @@
 .Header .frame-header {
   border-radius: var(--round-corner-md) 0 0 var(--round-corner-md);
   background-color: var(--third-color);
-  padding: 2.5rem 2rem 2rem;
+  padding: 3rem;
 }
 .Header .container-hd {
-  width: 200px;
+  max-width: 520px;
   margin: 0 auto;
 }
 .Header h1 {
   font-family: var(--font-headers);
   text-transform: uppercase;
   color: var(--primary-color);
+  font-size: 54px;
 }
-.Header .container-hd p {
+.Header .frame-header p {
   color: var(--primary-color);
-
-  font-size: 13px;
+  margin-top: 0.3rem;
+  font-size: 18px;
+  margin-left: 4px;
 }
 
-.Header .container-hd strong {
+.Header .frame-header strong {
   font-family: var(--font-headers);
   text-transform: uppercase;
-  font-size: 10px;
+  font-size: 14px;
   color: var(--secundary-color);
 }
-.Header .container-hd ul {
+.Header .frame-header ul {
   color: var(--primary-color);
-  font-size: 13px;
+  margin-top: 0.3rem;
+  margin-left: 26px;
   list-style-type: "> ";
   font-weight: 500;
 }
 .Header .frame-image {
-  width: 200px;
-  height: 200px;
-  border-radius: 0 0 var(--round-corner-md) var(--round-corner-md);
+  align-items: end;
 }
 .Header .frame-image img {
-  object-fit: cover;
+  border-radius: 0 0 var(--round-corner-md) var(--round-corner-md);
   height: 100%;
   width: 100%;
 }
