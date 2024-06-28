@@ -1,5 +1,5 @@
 .Header .frame-header {
-  border-radius: var(--round-corner-bg) 0 0 var(--round-corner-bg);
+  border-radius: var(--round-corner-md) 0 0 var(--round-corner-md);
   background-color: var(--third-color);
   padding: 2.5rem 2rem 2rem;
 }
@@ -29,4 +29,14 @@
   font-size: 13px;
   list-style-type: "> ";
   font-weight: 500;
+}
+.Header .frame-image {
+  width: 200px;
+  height: 200px;
+  border-radius: 0 0 var(--round-corner-md) var(--round-corner-md);
+}
+.Header .frame-image img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
 }

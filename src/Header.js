@@ -28,9 +28,10 @@ export default function Header() {
           </div>
         </div>
       </section>
-      <section className="frame-image">
+      <div className="frame-image">
         <img src={perfilImage} alt="profile" />
-      </section>
+      </div>
+      <button className="btn">Contact me</button>
     </div>
   );
 }
