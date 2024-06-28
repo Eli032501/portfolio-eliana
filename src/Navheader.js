@@ -4,7 +4,7 @@ import "./Navheader.css";
 export default function Navheader() {
   return (
     <div className="Navheader">
-      <Navbar expand={false} className="bg-body-tertiary mb-3">
+      <Navbar expand={false} className="">
         <Container fluid>
           <Navbar.Brand href="#">Eliana Pereira</Navbar.Brand>
           <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${false}`} />

@@ -1,29 +1,35 @@
 import React from "react";
+import perfilImage from "./images/perfil.jpg";
+import "./Header.css";
 
 export default function Header() {
   return (
     <div className="Header">
-      <section>
-        <h1>Frontend Developer</h1>
-        <strong> Based in Lisbon</strong>
-        <div>
-          <h3>Skills</h3>
-          <ul>
-            <li>React</li>
-            <li>Bootstrap</li>
-            <li>Responsive Developement</li>
-          </ul>
-        </div>
-        <div>
-          <h3>Tools</h3>
-          <ul>
-            <li>Github</li>
-            <li>Vs Code</li>
-          </ul>
+      <section className="frame-header">
+        <div className="container-hd">
+          <h1>Frontend Developer</h1>
+          <p> Based in Lisbon</p>
+          <div className="mt-4">
+            <div>
+              <strong>Skills</strong>
+              <ul>
+                <li>React</li>
+                <li>Bootstrap</li>
+                <li>Responsive Developement</li>
+              </ul>
+            </div>
+            <div>
+              <strong>Tools</strong>
+              <ul>
+                <li>Github</li>
+                <li>Vs Code</li>
+              </ul>
+            </div>
+          </div>
         </div>
       </section>
-      <section>
-        <image />
+      <section className="frame-image">
+        <img src={perfilImage} alt="profile" />
       </section>
     </div>
   );

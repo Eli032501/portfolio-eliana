@@ -1,0 +1,32 @@
+.Header .frame-header {
+  border-radius: var(--round-corner-bg) 0 0 var(--round-corner-bg);
+  background-color: var(--third-color);
+  padding: 2.5rem 2rem 2rem;
+}
+.Header .container-hd {
+  width: 200px;
+  margin: 0 auto;
+}
+.Header h1 {
+  font-family: var(--font-headers);
+  text-transform: uppercase;
+  color: var(--primary-color);
+}
+.Header .container-hd p {
+  color: var(--primary-color);
+
+  font-size: 13px;
+}
+
+.Header .container-hd strong {
+  font-family: var(--font-headers);
+  text-transform: uppercase;
+  font-size: 10px;
+  color: var(--secundary-color);
+}
+.Header .container-hd ul {
+  color: var(--primary-color);
+  font-size: 13px;
+  list-style-type: "> ";
+  font-weight: 500;
+}

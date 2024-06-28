@@ -5,8 +5,10 @@
   --third-color: #90ddf0;
   --fourth-color: #0a090c;
   --fifth-color: #f0edee;
+  --round-corner-bg: 60px;
 }
 
 .App {
   background-color: #f0edee;
+  color: var(--fouth-color);
 }
