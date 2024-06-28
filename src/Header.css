@@ -1,12 +1,9 @@
 .Header .frame-header {
   border-radius: var(--round-corner-md) 0 0 var(--round-corner-md);
   background-color: var(--third-color);
-  padding: 3rem;
+  padding: 3rem 6rem;
 }
-.Header .container-hd {
-  max-width: 520px;
-  margin: 0 auto;
-}
+
 .Header h1 {
   font-family: var(--font-headers);
   text-transform: uppercase;
@@ -35,9 +32,35 @@
 }
 .Header .frame-image {
   align-items: end;
+  height: 90vh;
+  background-color: var(--third-color);
+  border-bottom-left-radius: var(--round-corner-md);
 }
 .Header .frame-image img {
-  border-radius: 0 0 var(--round-corner-md) var(--round-corner-md);
+  box-shadow: -6px 6px 12px #2c666e3a;
+  object-fit: cover;
+  border-radius: var(--round-corner-md) 0 0 var(--round-corner-md);
   height: 100%;
   width: 100%;
+}
+
+.Header .btn-standard-lt {
+  border-radius: 0 var(--round-corner-sm) var(--round-corner-sm) 0;
+  background-color: var(--secundary-color);
+  width: 565px;
+  padding: 20px 30px;
+  font-family: var(--font-headers);
+  color: var(--fifth-color);
+  font-size: 20px;
+  text-align: end;
+  text-transform: uppercase;
+  border: 2px solid var(--secundary-color);
+  border-left: none;
+  box-shadow: 6px -6px 12px #2c666e3a;
+}
+
+.Header .btn-standard-lt:hover {
+  background-color: var(--fifth-color);
+  box-shadow: none;
+  color: var(--secundary-color);
 }
