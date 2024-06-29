@@ -15,7 +15,7 @@ export default function Navheader() {
           >
             <Offcanvas.Header closeButton></Offcanvas.Header>
             <Offcanvas.Body>
-              <Nav className="justify-content-end flex-grow-1 pe-3">
+              <Nav className="justify-content-end flex-grow-1 ">
                 <Nav.Link href="#action1">My Projects</Nav.Link>
                 <Nav.Link href="#action2">About Me</Nav.Link>
                 <Nav.Link href="#action2">Contact Me</Nav.Link>

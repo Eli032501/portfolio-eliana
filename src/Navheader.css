@@ -19,3 +19,27 @@
 .Navheader .navbar-toggler:focus {
   box-shadow: 0 0 0 1px #8f8f8f;
 }
+
+.offcanvas {
+  background-color: var(--fifth-color);
+  color: var(--fourth-color);
+  border-radius: var(--round-corner-md) 0 0 var(--round-corner-md);
+}
+.offcanvas-body {
+  padding: 0;
+  margin-top: 2rem;
+}
+.nav-link {
+  font-size: 18px;
+  margin-bottom: 0.6rem;
+  margin-left: 2.4rem;
+  transition: all 120ms ease-in-out;
+}
+.nav-link:hover {
+  color: var(--secundary-color);
+  background: linear-gradient(
+    90deg,
+    var(--fifth-color) 34%,
+    var(--secundary-color) 100%
+  );
+}
