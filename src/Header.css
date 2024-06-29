@@ -56,7 +56,7 @@
   text-transform: uppercase;
   border: 2px solid var(--secundary-color);
   border-left: none;
-  box-shadow: 6px -6px 12px #2c666e3a;
+  box-shadow: 3px -3px 8px #2c666e99;
 }
 
 .Header .btn-standard-lt:hover {
