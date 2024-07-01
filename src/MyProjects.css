@@ -35,12 +35,12 @@
   margin-left: 20px;
 }
 .MyProjects .grid-projects {
-  margin: 20px 7rem;
+  margin: 30px 7rem;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 30px;
   grid-auto-rows: minmax(100px, auto);
-  justify-content: center;
+  justify-items: center;
 }
 .MyProjects .element-project {
   max-width: 400px;
@@ -74,7 +74,12 @@
 .MyProjects .element-project .info-prj p {
   margin-bottom: 10px;
 }
-.MyProjects .element-project .link-prj {
+.MyProjects .element-project .info-prj a {
   font-weight: 500;
   font-size: 16px;
+  color: var(--secundary-color);
+  transition: all 150ms ease-in-out;
+}
+.MyProjects .element-project .info-prj a:hover {
+  text-decoration: underline;
 }

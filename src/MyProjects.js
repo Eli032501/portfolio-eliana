@@ -1,18 +1,9 @@
-import React, { useState } from "react";
+import React from "react";
 import "./MyProjects.css";
 import prj1 from "./images/prj1.png";
+import Collapsible from "./Collapsible";
 
 export default function MyProjects(params) {
-  const [btnToggle, setBtnToggle] = useState("d-none");
-
-  function togglePrj() {
-    if (btnToggle === "d-none") {
-      setBtnToggle("d-block");
-    } else {
-      setBtnToggle("d-none");
-    }
-  }
-
   return (
     <div className="MyProjects">
       <div className="d-flex f-row justify-content-end align-items-center">
@@ -24,49 +15,29 @@ export default function MyProjects(params) {
           <div className="frame-prj">
             <img src={prj1} alt="weather project" />
           </div>
-          <div className={[btnToggle, "info-prj"].join(" ")}>
-            <p>
-              I built this fully-functioning Vanilla JavaScript weather app in
-              SheCodes workshop. Building upon my previously-gained knowledge, I
-              also became skilled in Bootstrap, API’s, real-life development
-              workflow, hosting, and advanced JavaScript.
-            </p>
-            <a
-              href="https://react-weather-forecast-eli.netlify.app/"
-              className="link-prj"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Check it out!
-            </a>
-          </div>
-          <button onClick={togglePrj}>
-            <h3>Check the Weather</h3>
-          </button>
+          <Collapsible
+            label="Check the Weather"
+            body="I built this fully-functioning Vanilla JavaScript weather app
+                  in SheCodes workshop. Building upon my previously-gained
+                  knowledge, I also became skilled in Bootstrap, API’s,
+                  real-life development workflow, hosting, and advanced
+                  JavaScript."
+            link="Check it out"
+          />
         </article>
         <article className="element-project">
           <div className="frame-prj">
             <img src={prj1} alt="weather project" />
           </div>
-          <div className={[btnToggle, "info-prj"].join(" ")}>
-            <p>
-              I built this fully-functioning Vanilla JavaScript weather app in
-              SheCodes workshop. Building upon my previously-gained knowledge, I
-              also became skilled in Bootstrap, API’s, real-life development
-              workflow, hosting, and advanced JavaScript.
-            </p>
-            <a
-              href="https://react-weather-forecast-eli.netlify.app/"
-              className="link-prj"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Check it out!
-            </a>
-          </div>
-          <button onClick={togglePrj}>
-            <h3>Check the Weather</h3>
-          </button>
+          <Collapsible
+            label="Check the Weather"
+            body="I built this fully-functioning Vanilla JavaScript weather app
+                  in SheCodes workshop. Building upon my previously-gained
+                  knowledge, I also became skilled in Bootstrap, API’s,
+                  real-life development workflow, hosting, and advanced
+                  JavaScript."
+            link="Check it out"
+          />
         </article>
       </div>
     </div>
