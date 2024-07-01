@@ -13,10 +13,17 @@
   --round-corner-bg: 60px;
   --round-corner-md: 40px;
   --round-corner-sm: 20px;
+  --shadow-lb: -6px 6px 12px #2c666e3a;
+  --shadow-el: 3px -3px 4px #0a090c26;
+  --shadow-btn: 3px -3px 8px #2c666e99;
 }
 
 .App {
   background-color: #f0edee;
   color: var(--fouth-color);
   padding: 0;
+}
+.App a {
+  text-decoration: none;
+  color: var(--secundary-color);
 }

@@ -37,7 +37,7 @@
   border-bottom-left-radius: var(--round-corner-md);
 }
 .Header .frame-image img {
-  box-shadow: -6px 6px 12px #2c666e3a;
+  box-shadow: var(--shadow-lb);
   object-fit: cover;
   border-radius: var(--round-corner-md) 0 0 var(--round-corner-md);
   height: 100%;
@@ -56,7 +56,7 @@
   text-transform: uppercase;
   border: 2px solid var(--secundary-color);
   border-left: none;
-  box-shadow: 3px -3px 8px #2c666e99;
+  box-shadow: var(--shadow-btn);
 }
 
 .Header .btn-standard-lt:hover {
