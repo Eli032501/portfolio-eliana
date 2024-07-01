@@ -20,7 +20,7 @@ export default function MyProjects(params) {
         <span className="title-component-rt"></span>
       </div>
       <div className="grid-projects">
-        <button onClick={togglePrj} className="element-project">
+        <article className="element-project">
           <div className="frame-prj">
             <img src={prj1} alt="weather project" />
           </div>
@@ -40,8 +40,34 @@ export default function MyProjects(params) {
               Check it out!
             </a>
           </div>
-          <h3>Check the Weather</h3>
-        </button>
+          <button onClick={togglePrj}>
+            <h3>Check the Weather</h3>
+          </button>
+        </article>
+        <article className="element-project">
+          <div className="frame-prj">
+            <img src={prj1} alt="weather project" />
+          </div>
+          <div className={[btnToggle, "info-prj"].join(" ")}>
+            <p>
+              I built this fully-functioning Vanilla JavaScript weather app in
+              SheCodes workshop. Building upon my previously-gained knowledge, I
+              also became skilled in Bootstrap, API’s, real-life development
+              workflow, hosting, and advanced JavaScript.
+            </p>
+            <a
+              href="https://react-weather-forecast-eli.netlify.app/"
+              className="link-prj"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Check it out!
+            </a>
+          </div>
+          <button onClick={togglePrj}>
+            <h3>Check the Weather</h3>
+          </button>
+        </article>
       </div>
     </div>
   );
