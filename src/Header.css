@@ -48,10 +48,10 @@
   border-radius: 0 var(--round-corner-sm) var(--round-corner-sm) 0;
   background-color: var(--secundary-color);
   width: 565px;
-  padding: 20px 30px;
+  padding: 18px 34px;
   font-family: var(--font-headers);
   color: var(--fifth-color);
-  font-size: 20px;
+  font-size: 18px;
   text-align: end;
   text-transform: uppercase;
   border: 2px solid var(--secundary-color);
