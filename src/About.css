@@ -47,7 +47,6 @@
 .About .btn-standard-rt:hover {
   background-color: var(--fifth-color);
   box-shadow: none;
-  color: var(--secundary-color);
 }
 .About .list-courses {
   margin: 16px;
