@@ -3,6 +3,7 @@ import Navheader from "./Navheader.js";
 import Header from "./Header.js";
 import MyProjects from "./MyProjects.js";
 import About from "./About.js";
+import Contacts from "./Contacts.js";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Header />
       <MyProjects />
       <About />
+      <Contacts />
     </div>
   );
 }

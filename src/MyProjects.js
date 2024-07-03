@@ -7,7 +7,7 @@ export default function MyProjects(params) {
   return (
     <div className="MyProjects">
       <div className="d-flex f-row justify-content-end align-items-center">
-        <h2>My Projects</h2>
+        <h2 id="projects">My Projects</h2>
         <span className="title-component-rt"></span>
       </div>
       <div className="grid-projects">

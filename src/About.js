@@ -6,7 +6,7 @@ export default function About() {
     <div className="About">
       <div className="d-flex f-row  align-items-center">
         <span className="title-component-lt"></span>
-        <h2>About me</h2>
+        <h2 id="about">About me</h2>
       </div>
       <section className="row mt-2 justify-content-between">
         <div className="col-6 frame-text">
