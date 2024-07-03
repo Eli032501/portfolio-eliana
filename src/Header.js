@@ -29,7 +29,9 @@ export default function Header() {
               </div>
             </div>
           </div>
-          <button className="btn btn-standard-lt">Contact me</button>
+          <a href="#contact" className="btn btn-standard-lt">
+            Contact me
+          </a>
         </div>
         <div className="frame-image col-5">
           <img src={perfilImage} alt="profile" />
