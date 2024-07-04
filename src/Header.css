@@ -32,7 +32,7 @@
 }
 .Header .frame-image {
   align-items: end;
-  height: 90vh;
+  height: 83vh;
   background-color: var(--third-color);
   border-bottom-left-radius: var(--round-corner-md);
 }

@@ -4,11 +4,16 @@ import "./Navheader.css";
 export default function Navheader() {
   return (
     <div className="Navheader">
-      <Navbar expand={"lg"} collapseOnSelect>
+      <Navbar key={"lg"} expand={"lg"} collapseOnSelect>
         <Container fluid>
           <Navbar.Brand href="#">Eliana Pereira</Navbar.Brand>
-          <Navbar.Toggle />
-          <Navbar.Offcanvas placement="end" restoreFocus={false}>
+          <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-lg`} />
+          <Navbar.Offcanvas
+            id={`offcanvasNavbar-expand-${"lg"}`}
+            aria-labelledby={`offcanvasNavbarLabel-expand-${"lg"}`}
+            placement="end"
+            restoreFocus={false}
+          >
             <Offcanvas.Header closeButton></Offcanvas.Header>
             <Offcanvas.Body>
               <Nav className="justify-content-end flex-grow-1 ">
