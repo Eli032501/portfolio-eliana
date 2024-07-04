@@ -8,7 +8,7 @@ export default function About() {
         <span className="title-component-lt"></span>
         <h2 id="about">About me</h2>
       </div>
-      <section className="row mt-2 justify-content-between">
+      <section className="row mt-3 justify-content-between">
         <div className="col-6 frame-text">
           <p>
             I built this fully-functioning Vanilla JavaScript weather app in

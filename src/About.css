@@ -20,14 +20,13 @@
 }
 .About .frame-text {
   border-radius: 0 var(--round-corner-sm) var(--round-corner-sm) 0;
+  border: solid 2.5px var(--third-color);
   border-left: none;
   padding: 30px;
-  background-color: var(--primary-color);
 }
 .About .frame-text p {
   max-width: 420px;
   margin-left: 7rem;
-  color: var(--fifth-color);
 }
 .About .btn-standard-rt {
   border-radius: var(--round-corner-sm) 0 0 var(--round-corner-sm);
@@ -42,6 +41,7 @@
   border: 2px solid var(--third-color);
   border-right: none;
   box-shadow: var(--shadow-btn);
+  transition: all 180ms ease-in-out;
 }
 
 .About .btn-standard-rt:hover {
