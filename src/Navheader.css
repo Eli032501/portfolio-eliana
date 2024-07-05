@@ -65,7 +65,7 @@
     padding-top: 0.6rem;
 
     margin: 0rem;
-    margin-left: 6rem;
+    margin-left: 4rem;
   }
   .nav-link {
     margin-right: 3rem;
@@ -73,5 +73,15 @@
   .nav-link {
     padding-top: 10px;
     padding-bottom: 10px;
+  }
+}
+@media (max-width: 768px) {
+  .Navheader .navbar {
+    margin-left: 6rem;
+  }
+}
+@media (max-width: 576px) {
+  .Navheader .navbar {
+    margin-left: 3.4rem;
   }
 }

@@ -2,6 +2,7 @@
   border-radius: var(--round-corner-md) 0 0 var(--round-corner-md);
   background-color: var(--third-color);
   padding: 3rem 3rem 3rem 9rem;
+  margin-bottom: 2rem;
 }
 
 .Header h1 {
@@ -16,7 +17,9 @@
   font-size: 18px;
   margin-left: 4px;
 }
-
+.Header .frame-header div {
+  margin-top: 1.2rem;
+}
 .Header .frame-header strong {
   font-family: var(--font-headers);
   text-transform: uppercase;
@@ -26,13 +29,16 @@
 .Header .frame-header ul {
   color: var(--primary-color);
   margin-top: 0.3rem;
-  margin-left: 26px;
+  margin-left: 20px;
   list-style-type: "> ";
   font-weight: 500;
 }
+.Header li::marker {
+  color: var(--secundary-color);
+}
 .Header .frame-image {
   align-items: end;
-  height: 83vh;
+  height: 500px;
   background-color: var(--third-color);
   border-bottom-left-radius: var(--round-corner-md);
 }
@@ -65,8 +71,70 @@
   box-shadow: none;
   color: var(--secundary-color);
 }
+@media (max-width: 1200px) {
+  .Header h1 {
+    font-size: 50px;
+  }
+  .Header .frame-header {
+    padding-left: 7rem;
+  }
+  .Header .frame-header div div:last-child {
+    margin-left: 1.4rem;
+  }
+  .Header .btn-standard-lt {
+    width: 500px;
+  }
+}
 @media (max-width: 992px) {
+  .Header h1 {
+    font-size: 42px;
+  }
+  .Header .frame-header p {
+    font-size: 16px;
+  }
   .Header {
     padding-top: 50px;
+  }
+  .Header .frame-header {
+    padding-left: 5rem;
+  }
+  .Header .frame-header strong {
+    font-size: 12px;
+  }
+  .Header .frame-header ul {
+    font-size: 14px;
+  }
+  .Header .frame-image {
+    height: 450px;
+  }
+  .Header .btn-standard-lt {
+    width: 400px;
+    padding: 16px 30px;
+    font-size: 16px;
+  }
+}
+@media (max-width: 768px) {
+  .Header .frame-header {
+    padding-left: 6rem;
+    margin-bottom: 1rem;
+  }
+  .Header .frame-image {
+    height: 300px;
+    background-color: var(--fifth-color);
+  }
+  .Header .frame-image img {
+    border-radius: 0 var(--round-corner-md) var(--round-corner-md) 0;
+  }
+}
+@media (max-width: 576px) {
+  .Header {
+    background-color: rgb(86, 25, 97);
+  }
+  .Header .frame-header {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+  .Header h1 {
+    font-size: 36px;
   }
 }

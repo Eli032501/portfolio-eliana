@@ -6,11 +6,11 @@ export default function Header() {
   return (
     <div className="Header">
       <section className="row">
-        <div className=" col-7">
-          <div className=" frame-header mb-4">
+        <div className=" col-12 col-md-7">
+          <div className=" frame-header ">
             <h1>Frontend Developer</h1>
-            <p> Based in Lisbon</p>
-            <div className="row mt-5">
+            <p> based in Lisbon</p>
+            <div className="row ">
               <div className="col">
                 <strong>Skills</strong>
                 <ul>
@@ -19,8 +19,8 @@ export default function Header() {
                   <li>Responsive Developement</li>
                 </ul>
               </div>
-              <div className="col-1"></div>
-              <div className="col">
+
+              <div className="col col-md-4 col-lg">
                 <strong>Tools</strong>
                 <ul>
                   <li>Github</li>
@@ -29,13 +29,14 @@ export default function Header() {
               </div>
             </div>
           </div>
-          <a href="#contact" className="btn btn-standard-lt">
+          <a href="#contact" className="d-none d-md-block btn btn-standard-lt">
             Contact me
           </a>
         </div>
-        <div className="frame-image col-5">
+        <div className="frame-image col-11 col-sm-10 col-md-5">
           <img src={perfilImage} alt="profile" />
         </div>
+        <div className="col d-md-none "></div>
       </section>
     </div>
   );
