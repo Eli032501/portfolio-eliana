@@ -12,14 +12,14 @@
 }
 .MyProjects h3 {
   font-size: 18px;
+  text-align: center;
 }
 .MyProjects .element-project button {
   width: 100%;
   padding: 16px;
   color: var(--fifth-color);
-  background-color: var(--secundary-color);
+  background-color: var(--primary-color);
   text-align: center;
-  border-radius: 0 0 var(--round-corner-sm) var(--round-corner-sm);
   border: var(--secundary-color) 1.2px solid;
   transition: all 150ms ease-in-out;
 }
@@ -29,7 +29,7 @@
 }
 .MyProjects .title-component-rt {
   border-radius: var(--round-corner-sm) 0 0 var(--round-corner-sm);
-  width: 300px;
+  width: 240px;
   height: 64px;
   border: solid 2px var(--secundary-color);
   border-right: none;
@@ -43,37 +43,37 @@
   grid-auto-rows: minmax(100px, auto);
   justify-items: center;
 }
-.MyProjects .element-project {
-  width: 400px;
-}
+
 .MyProjects .element-project:nth-child(2),
 .MyProjects .element-project:nth-child(4) {
   margin-top: 50px;
 }
 
 .MyProjects .element-project .frame-prj {
-  height: 280px;
+  height: 240px;
+  width: 400px;
 }
 .MyProjects .element-project img {
   border-radius: var(--round-corner-sm) var(--round-corner-sm) 0 0;
-  border: var(--secundary-color) 1.2px solid;
+  border: var(--secundary-color) 1.4px solid;
   border-bottom: none;
-
   object-fit: cover;
   width: 100%;
   height: 100%;
 }
 
 .MyProjects .element-project .info-prj {
+  width: 400px;
   background-color: var(--fifth-color);
-  border: var(--secundary-color) 1.2px solid;
-  border-bottom: none;
+  border: var(--secundary-color) 1.4px solid;
+  border-radius: 0 0 var(--round-corner-sm) var(--round-corner-sm);
+  border-top: none;
   padding: 20px;
   font-size: 14px;
   text-align: left;
 }
 .MyProjects .element-project .info-prj p {
-  margin-bottom: 10px;
+  margin: 0.8rem 0;
 }
 .MyProjects .element-project .info-prj a {
   font-weight: 500;
@@ -83,4 +83,51 @@
 }
 .MyProjects .element-project .info-prj a:hover {
   text-decoration: underline;
+}
+
+@media (max-width: 1200px) {
+  .MyProjects .grid-projects {
+    margin: 36px 4rem;
+    gap: 20px;
+  }
+  .MyProjects .element-project .frame-prj {
+    height: 200px;
+    width: 360px;
+  }
+  .MyProjects h2 {
+    font-size: 26px;
+  }
+  .MyProjects .title-component-rt {
+    width: 180px;
+  }
+  .MyProjects .element-project .info-prj {
+    width: 360px;
+  }
+}
+@media (max-width: 992px) {
+  .MyProjects .grid-projects {
+    margin: 50px 3rem;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .MyProjects .element-project .frame-prj {
+    height: 200px;
+    width: 500px;
+  }
+
+  .MyProjects .element-project .info-prj {
+    width: 500px;
+    background: none;
+  }
+  .MyProjects h3 {
+    font-size: 16px;
+  }
+  .MyProjects .info-prj p {
+    margin: 0.2rem 0 0.8rem;
+  }
+  .MyProjects .info-prj a {
+    display: block;
+    text-align: right;
+    margin-right: 20px;
+  }
 }

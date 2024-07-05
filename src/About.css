@@ -12,7 +12,7 @@
 }
 .About .title-component-lt {
   border-radius: 0 var(--round-corner-sm) var(--round-corner-sm) 0;
-  width: 300px;
+  width: 240px;
   height: 64px;
   border: solid 1.5px var(--secundary-color);
   border-left: none;
@@ -68,4 +68,12 @@
 .About li::marker {
   color: var(--primary-color);
   font-weight: 500;
+}
+@media (max-width: 1200px) {
+  .About h2 {
+    font-size: 26px;
+  }
+  .About .title-component-lt {
+    width: 180px;
+  }
 }
