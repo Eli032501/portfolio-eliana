@@ -7,7 +7,7 @@ export default function Header() {
     <div className="Header">
       <section className="row">
         <div className=" col-7">
-          <div className=" frame-header mb-5">
+          <div className=" frame-header mb-4">
             <h1>Frontend Developer</h1>
             <p> Based in Lisbon</p>
             <div className="row mt-5">

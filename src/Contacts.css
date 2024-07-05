@@ -14,9 +14,10 @@
 }
 .Contacts a {
   color: var(--fifth-color);
-  border-radius: 8px;
-  padding: 4px 8px 4px 4px;
+  border-radius: 10px;
+  padding: 6px;
   font-size: 18px;
+  margin-right: 2rem;
   transition: all 120ms ease-in-out;
 }
 .Contacts .contact-icons {
@@ -30,8 +31,8 @@
 }
 .Contacts a:hover {
   background: linear-gradient(
-    70deg,
-    var(--primary-color) 44%,
+    60deg,
+    var(--primary-color) 20%,
     var(--secundary-color) 100%
   );
 }

@@ -1,5 +1,7 @@
 .Navheader .navbar {
+  padding-top: 0.8rem;
   padding-bottom: 0.4rem;
+  margin: 0 9rem;
 }
 
 .Navheader .navbar-brand {
@@ -7,8 +9,6 @@
   color: var(--primary-color);
   font-size: 20px;
   font-weight: 400;
-  margin-left: 9rem;
-  margin-top: 1rem;
 }
 
 .Navheader .navbar-toggler {
@@ -29,34 +29,46 @@
 }
 .offcanvas-body {
   padding: 0;
-  margin-top: 2rem;
-  margin-right: 6rem;
 }
 .nav-link {
   font-size: 18px;
   margin-bottom: 0.6rem;
-  margin-left: 2.4rem;
-
-  border-radius: 0 12px 12px 0;
-  padding: 4px 22px 4px 0px;
+  margin-left: 3.4rem;
+  border-radius: 14px;
   transition: all 150ms ease-in-out;
 }
 .nav-link:hover {
   color: var(--secundary-color);
   background: linear-gradient(
-    50deg,
-    var(--fifth-color) 34%,
+    70deg,
+    var(--fifth-color) 30%,
     var(--third-color) 100%
   );
 }
+@media (min-width: 992px) {
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding: 4px 24px 4px 0px;
+  }
+}
+@media (max-width: 1200px) {
+  .Navheader .navbar {
+    margin: 0 7rem;
+  }
+}
 @media (max-width: 992px) {
-  .navbar {
+  .Navheader {
     position: fixed;
     width: 100%;
     background-color: var(--fifth-color);
   }
-  .Navheader .navbar-brand {
-    margin-left: 2rem;
+  .Navheader .navbar {
+    padding-top: 0.6rem;
+
+    margin: 0rem;
+    margin-left: 6rem;
+  }
+  .nav-link {
+    margin-right: 3rem;
   }
   .nav-link {
     padding-top: 10px;
