@@ -1,5 +1,5 @@
 .MyProjects {
-  margin-top: 60px;
+  margin-top: 70px;
 }
 .MyProjects h2,
 .MyProjects h3 {
@@ -99,6 +99,7 @@
   }
   .MyProjects .title-component-rt {
     width: 180px;
+    height: 54px;
   }
   .MyProjects .element-project .info-prj {
     width: 360px;
@@ -106,11 +107,10 @@
 }
 @media (max-width: 992px) {
   .MyProjects h2 {
-    font-size: 20px;
+    font-size: 26px;
   }
   .MyProjects .title-component-rt {
-    height: 40px;
-    width: 100px;
+    width: 140px;
   }
   .MyProjects .grid-projects {
     margin: 50px 3rem;
@@ -152,5 +152,12 @@
   .MyProjects .element-project .frame-prj,
   .MyProjects .element-project .info-prj {
     width: 380px;
+  }
+  .MyProjects h2 {
+    font-size: 22px;
+  }
+  .MyProjects .title-component-rt {
+    height: 46px;
+    width: 100px;
   }
 }

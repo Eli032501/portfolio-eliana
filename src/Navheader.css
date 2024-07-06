@@ -1,6 +1,6 @@
 .Navheader .navbar {
   padding-top: 0.8rem;
-  padding-bottom: 0.4rem;
+
   margin: 0 9rem;
 }
 
@@ -63,6 +63,7 @@
   }
   .Navheader .navbar {
     padding-top: 0.6rem;
+    padding-bottom: 0.4rem;
 
     margin: 0rem;
     margin-left: 5rem;
