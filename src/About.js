@@ -24,19 +24,17 @@ export default function About() {
           </p>
         </div>
 
-        <div className="col-12 col-lg-5 d-flex flex-column">
-          <div className="list-courses ">
+        <div className="col-12 col-lg-5 gr-list-btn ">
+          <div className="list-courses">
             <strong>educational journey</strong>
             <ul>
-              <li>Audiovisuals and Multemedia - Undergraduate degree</li>
+              <li>Audiovisuals and Multemedia - degree</li>
               <li>Web Front-End - Specialization</li>
               <li>Front-End - Shecodes Workshops</li>
               <li>Wall Street English - Course</li>
             </ul>
           </div>
-          <button className="btn btn-standard-rt mt-4 align-self-end">
-            Download CV
-          </button>
+          <button className="btn btn-standard-rt ">Download CV</button>
         </div>
       </section>
     </div>

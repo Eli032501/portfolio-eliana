@@ -1,16 +1,20 @@
 .Contacts {
-  margin: 80px auto 0px;
-  width: 650px;
+  margin: 90px auto 0px;
+  width: 700px;
   background-color: var(--primary-color);
   border-radius: var(--round-corner-sm) var(--round-corner-sm) 0 0;
-  padding: 40px 40px 4px;
+  padding: 40px 60px 4px;
 }
 .Contacts h2 {
   text-transform: uppercase;
   font-family: var(--font-headers);
   font-size: 30px;
   color: var(--third-color);
-  margin-bottom: 30px;
+  margin-bottom: 1.6rem;
+}
+.gr-link-contact {
+  flex-wrap: wrap-reverse;
+  margin-bottom: 2.6rem;
 }
 .Contacts a {
   color: var(--fifth-color);
@@ -41,4 +45,60 @@
 .Contacts hr {
   color: var(--third-color);
   margin-bottom: 10px;
+}
+@media (max-width: 1200px) {
+  .Contacts h2 {
+    font-size: 26px;
+  }
+}
+@media (max-width: 992px) {
+  .Contacts {
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+  .Contacts h2 {
+    font-size: 24px;
+  }
+
+  .gr-link-contact {
+    margin-bottom: 2rem;
+  }
+}
+@media (max-width: 768px) {
+  .Contacts {
+    margin: 70px auto;
+    width: 100%;
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+
+  .Contacts .contact-icons {
+    max-width: 34px;
+  }
+  .Contacts a {
+    border-radius: 6px;
+    padding: 4px;
+    font-size: 16px;
+    margin-right: 1.4rem;
+  }
+}
+@media (max-width: 576px) {
+  .Contacts {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  .Contacts h2 {
+    font-size: 22px;
+    margin-bottom: 1rem;
+  }
+  .Contacts .contact-icons {
+    max-width: 30px;
+    margin-top: 0.8rem;
+  }
+  .Contacts a {
+    font-size: 14px;
+  }
+  .Contacts p {
+    font-size: 12px;
+  }
 }

@@ -135,6 +135,11 @@
     padding-right: 3rem;
   }
   .Header h1 {
-    font-size: 36px;
+    font-size: 38px;
+  }
+}
+@media (max-width: 376px) {
+  .Header h1 {
+    font-size: 30px;
   }
 }

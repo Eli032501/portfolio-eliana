@@ -49,7 +49,7 @@
   box-shadow: none;
 }
 .About .list-courses {
-  margin: 16px;
+  margin: 16px 26px 30px;
 }
 .About .list-courses strong {
   font-family: var(--font-headers);
@@ -77,23 +77,35 @@
     width: 180px;
     height: 54px;
   }
+  .About .btn-standard-rt {
+    padding: 14px 32px;
+    font-size: 16px;
+  }
+  .About .list-courses {
+    margin-bottom: 3rem;
+  }
 }
 @media (max-width: 992px) {
   .About h2 {
-    font-size: 26px;
+    font-size: 24px;
   }
   .About .title-component-lt {
     width: 140px;
   }
+  .About .gr-list-btn {
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    justify-content: space-between;
+  }
   .About .btn-standard-rt {
-    width: 360px;
-    padding: 16px 30px;
-    font-size: 16px;
+    width: 280px;
   }
   .About .list-courses {
+    margin: 0;
     margin-top: 2rem;
     margin-left: 8rem;
-    padding: 0 30px;
+    padding-left: 30px;
   }
 
   .About .frame-text p {
@@ -103,15 +115,8 @@
   }
 }
 @media (max-width: 768px) {
-  .About .list-courses {
-    margin-left: 1rem;
-  }
-  .About .frame-text p {
-    margin: 0 1rem;
-  }
   .About .btn-standard-rt {
-    width: 300px;
-    padding: 14px 28px;
+    display: none;
   }
 }
 @media (max-width: 576px) {
@@ -128,6 +133,11 @@
   .About .list-courses,
   .About .frame-text p {
     font-size: 14px;
+    margin: 0 1rem;
+  }
+  .About .list-courses {
+    margin-top: 2rem;
+    padding-left: 10px;
   }
   .About .btn-standard-rt {
     width: 240px;

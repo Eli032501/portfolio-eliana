@@ -87,12 +87,12 @@
 
 @media (max-width: 1200px) {
   .MyProjects .grid-projects {
-    margin: 36px 4rem;
+    margin: 36px 3rem;
     gap: 20px;
   }
   .MyProjects .element-project .frame-prj {
     height: 200px;
-    width: 360px;
+    width: 380px;
   }
   .MyProjects h2 {
     font-size: 26px;
@@ -102,12 +102,12 @@
     height: 54px;
   }
   .MyProjects .element-project .info-prj {
-    width: 360px;
+    width: 380px;
   }
 }
 @media (max-width: 992px) {
   .MyProjects h2 {
-    font-size: 26px;
+    font-size: 24px;
   }
   .MyProjects .title-component-rt {
     width: 140px;
@@ -119,11 +119,11 @@
 
   .MyProjects .element-project .frame-prj {
     height: 200px;
-    width: 500px;
+    width: 520px;
   }
 
   .MyProjects .element-project .info-prj {
-    width: 500px;
+    width: 520px;
     background: none;
   }
   .MyProjects .element-project:nth-child(2),
@@ -145,13 +145,21 @@
     margin-right: 20px;
   }
 }
+@media (max-width: 768px) {
+  .MyProjects .element-project .frame-prj,
+  .MyProjects .element-project .info-prj {
+    width: 420px;
+  }
+}
+
 @media (max-width: 576px) {
   .MyProjects .grid-projects {
     margin: 50px 1rem;
   }
   .MyProjects .element-project .frame-prj,
   .MyProjects .element-project .info-prj {
-    width: 380px;
+    width: unset;
+    max-width: 380px;
   }
   .MyProjects h2 {
     font-size: 22px;
