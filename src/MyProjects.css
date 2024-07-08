@@ -169,3 +169,12 @@
     width: 100px;
   }
 }
+@media (max-width: 376px) {
+  .MyProjects h2 {
+    font-size: 20px;
+  }
+  .MyProjects .title-component-rt {
+    height: 40px;
+    width: 60px;
+  }
+}

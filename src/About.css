@@ -137,11 +137,22 @@
   }
   .About .list-courses {
     margin-top: 2rem;
-    padding-left: 10px;
   }
   .About .btn-standard-rt {
     width: 240px;
     padding: 12px 24px;
     font-size: 14px;
+  }
+}
+@media (max-width: 376px) {
+  .About h2 {
+    font-size: 20px;
+  }
+  .About .title-component-lt {
+    height: 40px;
+    width: 60px;
+  }
+  .About .list-courses {
+    padding-left: 12px;
   }
 }

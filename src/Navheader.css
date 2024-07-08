@@ -56,6 +56,9 @@
   }
 }
 @media (max-width: 992px) {
+  .Navheader .navbar-brand {
+    font-size: 18px;
+  }
   .Navheader {
     position: fixed;
     width: 100%;
@@ -82,7 +85,13 @@
   }
 }
 @media (max-width: 576px) {
+  .Navheader .navbar-brand {
+    font-size: 16px;
+  }
   .Navheader .navbar {
     margin-left: 3.4rem;
+  }
+  .Navheader .navbar-toggler {
+    font-size: 16px;
   }
 }

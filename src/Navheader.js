@@ -22,11 +22,11 @@ export default function Navheader() {
               >
                 <Nav.Link href="#projects">My Projects</Nav.Link>
                 <Nav.Link href="#about">About Me</Nav.Link>
-                <Nav.Link href="#" className="d-block d-md-none">
-                  Downoald CV
-                </Nav.Link>
                 <Nav.Link href="#contact" className="d-block d-lg-none">
                   Contact Me
+                </Nav.Link>{" "}
+                <Nav.Link href="#" className="d-block d-md-none">
+                  Downoald CV
                 </Nav.Link>
               </Nav>
             </Offcanvas.Body>
