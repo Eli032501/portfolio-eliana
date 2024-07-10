@@ -10,9 +10,9 @@
   --third-color: #90ddf0;
   --fourth-color: #0a090c;
   --fifth-color: #f0edee;
-  --round-corner-bg: 60px;
-  --round-corner-md: 40px;
-  --round-corner-sm: 20px;
+  --round-corner-md: 22px;
+  --round-corner-sm: 12px;
+  --round-corner-xs: 10px;
   --shadow-lb: -6px 6px 12px #2c666e3a;
   --shadow-el: 3px -3px 4px #0a090c26;
   --shadow-btn: 3px -3px 8px #2c666e99;

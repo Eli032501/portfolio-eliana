@@ -10,23 +10,29 @@
   font-size: 30px;
   color: var(--secundary-color);
 }
-.MyProjects h3 {
+.MyProjects .element-project .btn-prj {
+  border: none;
+}
+.MyProjects .element-project h3 {
   font-size: 18px;
   text-align: center;
-}
-.MyProjects .element-project button {
-  width: 100%;
   padding: 16px;
-  color: var(--fifth-color);
-  background-color: var(--primary-color);
+  color: var(--primary-color);
   text-align: center;
-  border: var(--secundary-color) 1.2px solid;
+  border-radius: 0;
+  border: var(--primary-color) 1.4px solid;
+  border-bottom: none;
   transition: all 150ms ease-in-out;
 }
-.MyProjects .element-project button:hover {
-  background-color: var(--fifth-color);
-  color: var(--primary-color);
+.MyProjects .element-project h3.label-prj {
+  color: var(--fifth-color);
+  border-radius: 0 0 var(--round-corner-xs) var(--round-corner-xs);
+  background-color: var(--primary-color);
 }
+.MyProjects .element-project .btn-prj:hover {
+  opacity: 0.85;
+}
+
 .MyProjects .title-component-rt {
   border-radius: var(--round-corner-sm) 0 0 var(--round-corner-sm);
   width: 240px;
@@ -44,8 +50,8 @@
   justify-items: center;
 }
 
-.MyProjects .element-project:nth-child(2),
-.MyProjects .element-project:nth-child(4) {
+.MyProjects article:nth-child(2),
+.MyProjects article:nth-child(4) {
   margin-top: 50px;
 }
 
@@ -54,8 +60,8 @@
   width: 400px;
 }
 .MyProjects .element-project img {
+  border: var(--primary-color) 1.4px solid;
   border-radius: var(--round-corner-sm) var(--round-corner-sm) 0 0;
-  border: var(--secundary-color) 1.4px solid;
   border-bottom: none;
   object-fit: cover;
   width: 100%;
@@ -65,23 +71,24 @@
 .MyProjects .element-project .info-prj {
   width: 400px;
   background-color: var(--fifth-color);
-  border: var(--secundary-color) 1.4px solid;
   border-radius: 0 0 var(--round-corner-sm) var(--round-corner-sm);
+  border: var(--primary-color) 1.4px solid;
   border-top: none;
-  padding: 20px;
+  padding: 0px 20px 14px;
   font-size: 14px;
   text-align: left;
 }
-.MyProjects .element-project .info-prj p {
-  margin: 0.8rem 0;
-}
+
 .MyProjects .element-project .info-prj a {
+  display: block;
+  margin: 12px 0px 10px;
   font-weight: 500;
   font-size: 16px;
-  color: var(--secundary-color);
+  color: var(--primary-color);
   transition: all 150ms ease-in-out;
 }
 .MyProjects .element-project .info-prj a:hover {
+  opacity: 0.7;
   text-decoration: underline;
 }
 
@@ -92,7 +99,7 @@
   }
   .MyProjects .element-project .frame-prj {
     height: 200px;
-    width: 380px;
+    width: 390px;
   }
   .MyProjects h2 {
     font-size: 26px;
@@ -102,7 +109,8 @@
     height: 54px;
   }
   .MyProjects .element-project .info-prj {
-    width: 380px;
+    width: 390px;
+    padding: 0px 22px 14px;
   }
 }
 @media (max-width: 992px) {
@@ -126,29 +134,26 @@
     width: 520px;
     background: none;
   }
-  .MyProjects .element-project:nth-child(2),
-  .MyProjects .element-project:nth-child(4) {
+  .MyProjects article:nth-child(2),
+  .MyProjects article:nth-child(4) {
     margin-top: 0px;
   }
   .MyProjects .element-project {
     margin-bottom: 16px;
   }
-  .MyProjects h3 {
-    font-size: 16px;
-  }
-  .MyProjects .info-prj p {
-    margin: 0.2rem 0 0.8rem;
-  }
-  .MyProjects .info-prj a {
-    display: block;
-    text-align: right;
+
+  .MyProjects .element-project .info-prj a {
     margin-right: 20px;
+    text-align: right;
   }
 }
 @media (max-width: 768px) {
   .MyProjects .element-project .frame-prj,
   .MyProjects .element-project .info-prj {
     width: 420px;
+  }
+  .MyProjects .element-project h3 {
+    font-size: 16px;
   }
 }
 
@@ -164,9 +169,16 @@
   .MyProjects h2 {
     font-size: 22px;
   }
+
   .MyProjects .title-component-rt {
     height: 46px;
     width: 100px;
+  }
+  .MyProjects .element-project .info-prj p {
+    font-size: 12px;
+  }
+  .MyProjects .element-project .info-prj a {
+    font-size: 14px;
   }
 }
 @media (max-width: 376px) {
