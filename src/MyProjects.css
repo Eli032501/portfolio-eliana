@@ -1,5 +1,5 @@
 .MyProjects {
-  margin-top: 70px;
+  padding-top: 90px;
 }
 .MyProjects h2,
 .MyProjects h3 {
@@ -94,7 +94,7 @@
 
 @media (max-width: 1200px) {
   .MyProjects .grid-projects {
-    margin: 36px 3rem;
+    margin: 36px 3rem 0px;
     gap: 20px;
   }
   .MyProjects .element-project .frame-prj {
@@ -121,7 +121,7 @@
     width: 140px;
   }
   .MyProjects .grid-projects {
-    margin: 50px 3rem;
+    margin: 50px 3rem 0px;
     grid-template-columns: repeat(1, 1fr);
   }
 
@@ -159,7 +159,7 @@
 
 @media (max-width: 576px) {
   .MyProjects .grid-projects {
-    margin: 50px 1rem;
+    margin: 50px 1rem 0px;
   }
   .MyProjects .element-project .frame-prj,
   .MyProjects .element-project .info-prj {
