@@ -15,7 +15,7 @@ export default function Header() {
               <div className="col ">
                 <strong>Skills</strong>
                 <ul>
-                  <li>React</li>
+                  <li>React.js</li>
                   <li>Bootstrap</li>
                   <li>Responsive</li>
                 </ul>

@@ -90,15 +90,11 @@
   .offcanvas.offcanvas-end {
     max-width: 250px;
   }
-  .Navheader .navbar-brand {
-    font-size: 14px;
-  }
+
   .Navheader .navbar {
     margin-left: 3rem;
   }
-  .Navheader .navbar-toggler {
-    font-size: 14px;
-  }
+
   .nav-link {
     font-size: 14px;
     margin-bottom: 0.4rem;
@@ -112,6 +108,9 @@
     margin-left: 2rem;
   }
   .Navheader .navbar-brand {
-    font-size: 13px;
+    font-size: 14px;
+  }
+  .Navheader .navbar-toggler {
+    font-size: 14px;
   }
 }
