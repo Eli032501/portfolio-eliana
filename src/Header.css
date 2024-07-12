@@ -1,7 +1,7 @@
 .Header .frame-header {
   border-radius: var(--round-corner-md) 0 0 var(--round-corner-md);
   background-color: var(--third-color);
-  padding: 3rem 3rem 3rem 9rem;
+  padding: 3rem 3rem 2rem 9rem;
   margin-bottom: 2rem;
 }
 
@@ -17,21 +17,23 @@
   font-size: 18px;
   margin-left: 4px;
 }
-.Header .frame-header div {
-  margin-top: 1.2rem;
+.Header .frame-header .grp-lists {
+  margin-top: 1.6rem;
+  margin-left: 20px;
 }
 .Header .frame-header strong {
   font-family: var(--font-headers);
   text-transform: uppercase;
-  font-size: 14px;
+  font-size: 12px;
   color: var(--secundary-color);
 }
 .Header .frame-header ul {
   color: var(--primary-color);
   margin-top: 0.3rem;
-  margin-left: 20px;
+  margin-left: 22px;
   list-style-type: "> ";
   font-weight: 500;
+  font-size: 14px;
 }
 .Header li::marker {
   color: var(--secundary-color);
@@ -78,9 +80,7 @@
   .Header .frame-header {
     padding-left: 7rem;
   }
-  .Header .frame-header div div:last-child {
-    margin-left: 1.4rem;
-  }
+
   .Header .btn-standard-lt {
     width: 460px;
   }
@@ -99,10 +99,10 @@
     padding-left: 5rem;
   }
   .Header .frame-header strong {
-    font-size: 12px;
+    font-size: 10px;
   }
   .Header .frame-header ul {
-    font-size: 14px;
+    font-size: 12px;
   }
   .Header .frame-image {
     height: 450px;
@@ -115,9 +115,10 @@
 }
 @media (max-width: 768px) {
   .Header .frame-header {
-    padding-left: 6rem;
+    padding-left: 4rem;
     margin-bottom: 1rem;
   }
+
   .Header .frame-image {
     height: 300px;
     background-color: var(--fifth-color);
@@ -125,21 +126,47 @@
   .Header .frame-image img {
     border-radius: 0 var(--round-corner-md) var(--round-corner-md) 0;
   }
+
+  .Header h1 {
+    font-size: 48px;
+  }
 }
 @media (max-width: 576px) {
-  .Header {
-    background-color: rgb(86, 25, 97);
-  }
   .Header .frame-header {
     padding-left: 3rem;
     padding-right: 3rem;
   }
+  .Header .frame-image {
+    height: 200px;
+  }
   .Header h1 {
     font-size: 38px;
   }
+  .Header .frame-header strong {
+    font-size: 9px;
+  }
+  .Header .frame-header ul {
+    font-size: 11px;
+    margin-top: 0;
+  }
 }
 @media (max-width: 376px) {
+  .Header .frame-header {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
   .Header h1 {
-    font-size: 30px;
+    font-size: 28px;
+  }
+  .Header .frame-header strong {
+    font-size: 7px;
+  }
+  .Header .frame-header ul {
+    font-size: 9px;
+  }
+  .Header .frame-header .grp-lists {
+    justify-content: space-between;
+    margin-left: 4px;
+    margin-top: 1.4rem;
   }
 }
