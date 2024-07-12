@@ -20,7 +20,7 @@
 }
 .About .frame-text {
   border-radius: 0 var(--round-corner-sm) var(--round-corner-sm) 0;
-  border: solid 2.5px var(--third-color);
+  border: solid 2px var(--third-color);
   border-left: none;
   padding: 30px;
 }
