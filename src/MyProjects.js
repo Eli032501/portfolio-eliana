@@ -1,6 +1,7 @@
 import React from "react";
 import "./MyProjects.css";
-import prj1 from "./images/prj1.png";
+import pj1 from "./images/pr1.png";
+import pj2 from "./images/pr2.png";
 import Collapsible from "./Collapsible";
 
 export default function MyProjects(params) {
@@ -12,27 +13,22 @@ export default function MyProjects(params) {
       </div>
       <div className="grid-projects">
         <Collapsible
-          srcImg={prj1}
-          altImg="weather project"
-          label="Check the Weather"
-          body="I built this fully-functioning Vanilla JavaScript weather app
-                  in SheCodes workshop. Building upon my previously-gained
-                  knowledge, I also became skilled in Bootstrap, API’s,
-                  real-life development workflow, hosting, and advanced
-                  JavaScript."
-          link="Check it out"
+          srcImg={pj1}
+          altImg="Weather App Project"
+          label="Weather App"
+          body="I built this project in SheCodes React workshop. Using my previous knowledge of Bootstrap, and Responsive Development and my recent skills with React and APIs, I created a fully-functioning weather app."
+          link="https://react-weather-forecast-eli.netlify.app/"
         />
 
         <Collapsible
-          srcImg={prj1}
-          altImg="weather project"
-          label="Check the Weather"
-          body="I built this fully-functioning Vanilla JavaScript weather app
-                  in SheCodes workshop. Building upon my previously-gained
-                  knowledge, I also became skilled in Bootstrap, API’s,
-                  real-life development workflow, hosting, and advanced
-                  JavaScript."
-          link="Check it out"
+          srcImg={pj2}
+          altImg="Dictionary App Project"
+          label="Dictionary App"
+          body="While working in SheCodes React workshop I developed
+              a fully functional and responsive dictionary app. Using React and 2 APIs
+              I built an app that provides meanings, synonyms, phonetics,
+              and images of the word provided by the user."
+          link="https://dictionary-app-react-eli.netlify.app/"
         />
       </div>
     </div>

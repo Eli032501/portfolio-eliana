@@ -26,12 +26,8 @@ export default function Collapsible({ srcImg, altImg, label, body, link }) {
         {open && (
           <div className="info-prj ">
             <p>{body}</p>
-            <a
-              href="https://react-weather-forecast-eli.netlify.app/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              {link}
+            <a href={link} target="_blank" rel="noreferrer">
+              Launch Project
             </a>
           </div>
         )}
@@ -48,12 +44,8 @@ export default function Collapsible({ srcImg, altImg, label, body, link }) {
 
           <div className="info-prj ">
             <p>{body}</p>
-            <a
-              href="https://react-weather-forecast-eli.netlify.app/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              {link}
+            <a href={link} target="_blank" rel="noreferrer">
+              Launch Project
             </a>
           </div>
         </div>
