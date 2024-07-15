@@ -137,6 +137,16 @@
   .About .frame-text {
     max-width: 68vw;
   }
+  .About .list-courses strong {
+    font-size: 12px;
+  }
+  .About .list-courses ul {
+    line-height: 1.6rem;
+    font-size: 14px;
+  }
+  .About .frame-text p {
+    font-size: 14px;
+  }
 }
 @media (max-width: 576px) {
   .About h2 {
@@ -147,13 +157,19 @@
     width: 86px;
   }
   .About .list-courses strong {
+    font-size: 10px;
+  }
+
+  .About .frame-text p {
+    margin: 0 1rem;
     font-size: 12px;
   }
-  .About .frame-text p {
-    font-size: 14px;
-    margin: 0 1rem;
+  .About .list-courses ul {
+    font-size: 12px;
+    line-height: 1.4rem;
   }
   .About .list-courses {
+    margin: 0 1rem;
     margin-top: 2rem;
   }
   .About .btn-standard-rt {
