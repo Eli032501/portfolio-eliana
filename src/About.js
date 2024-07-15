@@ -8,19 +8,16 @@ export default function About() {
         <span className="title-component-lt"></span>
         <h2>About me</h2>
       </div>
-      <section className="row mt-3 justify-content-between align-items-end">
+      <section className="row mt-3 justify-content-between align-items-start">
         <div className="col-12 col-md-11 col-lg-6 frame-text">
           <p>
-            I built this fully-functioning Vanilla JavaScript weather app in
-            SheCodes workshop. Building upon my previously-gained knowledge, I
-            also became skilled in Bootstrap, API’s, real-life development
-            workflow, hosting, and advanced JavaScript. SheCodes workshop.
+            I'm 23 years old, very curious, and always looking to learn more. I
+            live in Lisbon, Portugal, and I am passionate about music, books,
+            and travel.
           </p>
           <p>
-            Building upon my previously-gained knowledge, I also became skilled
-            in Bootstrap, API’s, workflow, hosting, and advanced JavaScript.
-            SheCodes workshop. Building upon my previously-gained knowledge, I
-            also became skilled in Bootstrap, API’s,
+            I'm currently looking for new opportunities in front-end
+            development. I have skills in React and Bootstrap.
           </p>
         </div>
 
@@ -28,7 +25,7 @@ export default function About() {
           <div className="list-courses">
             <strong>educational journey</strong>
             <ul>
-              <li>Audiovisuals and Multemedia - degree</li>
+              <li>Audiovisuals and Multemedia - Degree</li>
               <li>Web Front-End - Specialization</li>
               <li>Front-End - Shecodes Workshops</li>
               <li>Wall Street English - Course</li>

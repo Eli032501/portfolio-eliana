@@ -28,9 +28,7 @@
   color: var(--fifth-color);
   border-radius: 0 0 var(--round-corner-xs) var(--round-corner-xs);
   background-color: var(--primary-color);
-}
-.MyProjects .element-project .btn-prj:hover {
-  opacity: 0.85;
+  border-bottom: var(--primary-color) 1.4px solid;
 }
 
 .MyProjects .title-component-rt {
@@ -65,7 +63,13 @@
   width: 100%;
   height: 100%;
 }
-
+.MyProjects .element-project .btn-prj:hover .frame-prj {
+  opacity: 0.85;
+}
+.MyProjects .element-project .btn-prj:hover h3.label-prj {
+  background-color: var(--fifth-color);
+  color: var(--primary-color);
+}
 .MyProjects .element-project .info-prj {
   background-color: var(--fifth-color);
   border-radius: 0 0 var(--round-corner-sm) var(--round-corner-sm);
