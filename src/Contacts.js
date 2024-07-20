@@ -8,7 +8,12 @@ export default function Contacts() {
     <div className="Contacts ">
       <h2 id="contact">Contacts</h2>
       <div className="d-flex f-row align-items-center  gr-link-contact ">
-        <a href="/" className="contact-icons " target="_blank" rel="noreferrer">
+        <a
+          href="https://pt.linkedin.com/in/elianapereira-dev"
+          className="contact-icons "
+          target="_blank"
+          rel="noreferrer"
+        >
           <img src={icon1} alt="linkedin page" />
         </a>
         <a
