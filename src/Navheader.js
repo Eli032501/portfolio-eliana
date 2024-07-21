@@ -21,11 +21,18 @@ export default function Navheader() {
                 activeKey="/index"
               >
                 <Nav.Link href="#projects">My Projects</Nav.Link>
-                <Nav.Link href="#about">About Me</Nav.Link>
+                <Nav.Link href="#about" className="d-none d-md-block">
+                  About Me
+                </Nav.Link>
                 <Nav.Link href="#contact" className="d-block d-lg-none">
                   Contact Me
                 </Nav.Link>{" "}
-                <Nav.Link href="#" className="d-block d-md-none">
+                <Nav.Link
+                  href="https://www.dropbox.com/scl/fo/5nw4nty5tfs2kpvkry3um/ABgDINgE0nm7Rz0Cr3IRHnQ?rlkey=wrdhrjf443zc9swth7z0by07e&e=2&st=3ajbl9t8&dl=0"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="d-block d-md-none"
+                >
                   Downoald CV
                 </Nav.Link>
               </Nav>

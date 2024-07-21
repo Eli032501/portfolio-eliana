@@ -31,7 +31,14 @@ export default function About() {
               <li>Wall Street English - Course</li>
             </ul>
           </div>
-          <button className="btn btn-standard-rt ">Download CV</button>
+          <a
+            href="https://www.dropbox.com/scl/fo/5nw4nty5tfs2kpvkry3um/ABgDINgE0nm7Rz0Cr3IRHnQ?rlkey=wrdhrjf443zc9swth7z0by07e&e=2&st=3ajbl9t8&dl=0"
+            target="_blank"
+            rel="noreferrer"
+            className="btn btn-standard-rt "
+          >
+            Download CV
+          </a>
         </div>
       </section>
     </div>
