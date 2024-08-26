@@ -4,7 +4,6 @@
 .MyProjects h2,
 .MyProjects h3 {
   text-transform: uppercase;
-  font-family: var(--font-headers);
 }
 .MyProjects h2 {
   font-size: 30px;

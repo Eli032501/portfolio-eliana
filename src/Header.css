@@ -1,12 +1,14 @@
-.Header .frame-header {
-  border-radius: var(--round-corner-md) 0 0 var(--round-corner-md);
-  background-color: var(--third-color);
-  padding: 3rem 3rem 2rem 9rem;
-  margin-bottom: 2rem;
+.Header {
+  width: min(calc(100% - 40px), 56rem);
+  margin: 0 auto;
+}
+
+.Header .header-grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
 }
 
 .Header h1 {
-  font-family: var(--font-headers);
   text-transform: uppercase;
   color: var(--primary-color);
   font-size: 54px;
@@ -22,7 +24,6 @@
   margin-left: 20px;
 }
 .Header .frame-header strong {
-  font-family: var(--font-headers);
   text-transform: uppercase;
   font-size: 12px;
   color: var(--secundary-color);
@@ -39,17 +40,16 @@
   color: var(--secundary-color);
 }
 .Header .frame-image {
+  height: 400px;
   align-items: end;
-  height: 500px;
-  background-color: var(--third-color);
-  border-bottom-left-radius: var(--round-corner-md);
+  border-radius: var(--round-corner-md);
 }
 .Header .frame-image img {
   box-shadow: var(--shadow-lb);
+  border-radius: var(--round-corner-md);
   object-fit: cover;
-  border-radius: var(--round-corner-md) 0 0 var(--round-corner-md);
-  height: 100%;
-  width: 100%;
+  height: auto;
+  max-width: 100%;
 }
 
 .Header .btn-standard-lt {
@@ -57,7 +57,6 @@
   background-color: var(--secundary-color);
   width: 565px;
   padding: 18px 34px;
-  font-family: var(--font-headers);
   color: var(--fifth-color);
   font-size: 18px;
   text-align: end;
@@ -77,9 +76,6 @@
   .Header h1 {
     font-size: 50px;
   }
-  .Header .frame-header {
-    padding-left: 7rem;
-  }
 
   .Header .btn-standard-lt {
     width: 460px;
@@ -92,12 +88,7 @@
   .Header .frame-header p {
     font-size: 16px;
   }
-  .Header {
-    padding-top: 50px;
-  }
-  .Header .frame-header {
-    padding-left: 5rem;
-  }
+
   .Header .frame-header strong {
     font-size: 10px;
   }
@@ -114,31 +105,11 @@
   }
 }
 @media (max-width: 768px) {
-  .Header .frame-header {
-    padding-left: 4rem;
-    margin-bottom: 1.8rem;
-  }
-
-  .Header .frame-image {
-    height: 300px;
-    background-color: var(--fifth-color);
-  }
-  .Header .frame-image img {
-    border-radius: 0 var(--round-corner-md) var(--round-corner-md) 0;
-  }
-
   .Header h1 {
     font-size: 48px;
   }
 }
 @media (max-width: 576px) {
-  .Header .frame-header {
-    padding-left: 3rem;
-    padding-right: 3rem;
-  }
-  .Header .frame-image {
-    height: 200px;
-  }
   .Header h1 {
     font-size: 38px;
   }
@@ -151,10 +122,6 @@
   }
 }
 @media (max-width: 376px) {
-  .Header .frame-header {
-    padding-left: 2rem;
-    padding-right: 2rem;
-  }
   .Header h1 {
     font-size: 28px;
   }

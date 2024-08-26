@@ -4,12 +4,10 @@
 }
 
 :root {
-  --font-headers: "Krona One", sans-serif;
-  --primary-color: #07393c;
-  --secundary-color: #2c666e;
-  --third-color: #90ddf0;
-  --fourth-color: #0a090c;
-  --fifth-color: #f0edee;
+  --primary-color: #1b4332;
+  --secundary-color: #9fe1bc;
+  --third-color: #010f0a;
+  --fourth-color: #f5f8f5;
   --round-corner-md: 22px;
   --round-corner-sm: 12px;
   --round-corner-xs: 10px;
@@ -19,11 +17,11 @@
 }
 
 .App {
-  background-color: #f0edee;
-  color: var(--fouth-color);
+  color: var(--third-color);
   padding: 0;
 }
 .App a {
+  font-family: "Raleway", sans-serif;
   text-decoration: none;
   color: var(--secundary-color);
 }
