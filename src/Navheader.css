@@ -1,12 +1,11 @@
-.Navheader .navbar {
-  padding: 0.8rem 2.5rem 0rem;
-  background-color: var(--primary-color);
-}
-
 .Navheader .navbar-brand {
+  background-color: var(--primary-color);
   color: var(--fourth-color);
-  font-size: 18px;
+  font-size: 22px;
+  font-family: var(--title-font);
   font-weight: 100;
+  padding: 8px 1.6rem 8px 2.6rem;
+  border-bottom-right-radius: var(--round-corner-sm);
 }
 
 .Navheader .navbar-toggler {
@@ -26,65 +25,13 @@
 .offcanvas-body {
   padding: 0;
 }
+
 .nav-link {
-  font-size: 18px;
-  margin-bottom: 0.6rem;
-  margin-left: 3.4rem;
+  font-size: 20px;
+  margin-right: 2.6rem;
   border-radius: 14px;
-  transition: all 150ms ease-in-out;
+  transition: color 150ms ease-in-out;
 }
 .nav-link:hover {
-  background: linear-gradient(
-    70deg,
-    var(--fifth-color) 30%,
-    var(--third-color) 100%
-  );
-}
-
-@media (max-width: 992px) {
-  .Navheader .navbar-brand {
-    font-size: 16px;
-  }
-  .Navheader {
-    position: fixed;
-    width: 100%;
-    background-color: var(--fifth-color);
-  }
-
-  .nav-link {
-    margin-right: 3rem;
-    font-size: 16px;
-  }
-  .nav-link {
-    padding-top: 10px;
-    padding-bottom: 10px;
-  }
-}
-@media (max-width: 768px) {
-  .offcanvas.offcanvas-end {
-    max-width: 330px;
-  }
-}
-
-@media (max-width: 576px) {
-  .offcanvas.offcanvas-end {
-    max-width: 250px;
-  }
-
-  .nav-link {
-    font-size: 14px;
-    margin-bottom: 0.4rem;
-  }
-}
-@media (max-width: 376px) {
-  .offcanvas.offcanvas-end {
-    max-width: 230px;
-  }
-
-  .Navheader .navbar-brand {
-    font-size: 14px;
-  }
-  .Navheader .navbar-toggler {
-    font-size: 14px;
-  }
+  opacity: 0.8;
 }

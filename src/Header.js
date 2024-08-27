@@ -4,11 +4,11 @@ import "./Header.css";
 
 export default function Header() {
   return (
-    <div className="Header">
+    <div className="Header wrapper">
       <section className="header-grid">
         <div className=" frame-header">
           <h1>Frontend Developer</h1>
-          <p> based in Lisbon</p>
+          <h2>and music addicted</h2>
           <div className="row grp-lists">
             <div className="col ">
               <strong>Skills</strong>

@@ -6,7 +6,7 @@ import Collapsible from "./Collapsible";
 
 export default function MyProjects(params) {
   return (
-    <div className="MyProjects" id="projects">
+    <div className="MyProjects " id="projects">
       <div className="d-flex f-row justify-content-end align-items-center">
         <h2>My Projects</h2>
         <span className="title-component-rt"></span>

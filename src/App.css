@@ -4,24 +4,28 @@
 }
 
 :root {
+  --title-font: "Ubuntu", sans-serif;
+  --text-font: "Rokkitt", serif;
   --primary-color: #1b4332;
   --secundary-color: #9fe1bc;
   --third-color: #010f0a;
   --fourth-color: #f5f8f5;
   --round-corner-md: 22px;
   --round-corner-sm: 12px;
-  --round-corner-xs: 10px;
-  --shadow-lb: -6px 6px 12px #2c666e3a;
-  --shadow-el: 3px -3px 4px #0a090c26;
-  --shadow-btn: 3px -3px 8px #2c666e99;
+  --round-corner-xs: 4px;
+  --shadow: -6px 6px 12px #1b43323a;
 }
 
 .App {
   color: var(--third-color);
   padding: 0;
+  font-family: var(--text-font);
 }
 .App a {
-  font-family: "Raleway", sans-serif;
   text-decoration: none;
-  color: var(--secundary-color);
+  color: var(--primary-color);
+}
+.App .wrapper {
+  width: min(calc(100% - 40px), 60rem);
+  margin: 0 auto;
 }

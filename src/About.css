@@ -39,7 +39,7 @@
   text-transform: uppercase;
   border: 2px solid var(--third-color);
   border-right: none;
-  box-shadow: var(--shadow-btn);
+  box-shadow: var(--shadow);
   transition: all 180ms ease-in-out;
 }
 
