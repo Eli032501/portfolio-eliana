@@ -123,7 +123,7 @@
   .MyProjects .grid-projects {
     margin: 40px 7rem 0px;
     grid-template-columns: repeat(1, 1fr);
-    gap: 24px;
+    gap: 12px;
   }
 
   .MyProjects .element-project .frame-prj {
@@ -138,8 +138,11 @@
   }
   .MyProjects .element-project {
     margin-bottom: 16px;
+    width: 100%;
   }
-
+  .MyProjects .element-project .btn-prj {
+    width: 100%;
+  }
   .MyProjects .element-project .info-prj a {
     margin-right: 24px;
     text-align: right;
